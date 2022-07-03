@@ -1,5 +1,9 @@
 """
-PyCASL2, CASL II assembler implemented in Python.
+PyCASL3, CASL II assembler implemented in Python3.
+Copyright (c) 2022, eggplants.
+All rights reserved.
+
+Based on PyCASL2, CASL II assembler implemented in Python.
 Copyright (c) 2009, Masahiko Nakamoto.
 All rights reserved.
 

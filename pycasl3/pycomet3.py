@@ -230,7 +230,7 @@ class PyComet2:
 
         self.inst_table = {}
         for ir in self.inst_list:
-            self.inst_table[ir.opcode] = MethodType(ir, self, PyComet2)
+            self.inst_table[ir.opcode] = MethodType(ir, PyComet2)
 
         self.is_auto_dump = False
         self.break_points = []
@@ -438,7 +438,7 @@ class PyComet2:
         )
         sys.stderr.write(
             "GR0 #%04x(%7d) GR1 #%04x(%7d) "
-            " GR2 #%04x(%7d) GR3: #%04x(%7d)\n"
+            "GR2 #%04x(%7d) GR3: #%04x(%7d)\n"
             % (
                 self.GR[0],
                 l2a(self.GR[0]),

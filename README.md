@@ -1,5 +1,20 @@
 # PyCASL3 & PyCOMET3(CASLII Assembler & Simulater)
 
+## インストール
+
+```bash
+pip install git+https://github.com/eggplants/pycasl3
+```
+
+## 使い方
+
+```shellsession
+$ pycasl3 test/data.cas  # casl2 binary file
+$ pycomet3 test/data.com # comet2 binary file
+```
+
+---
+
 ## 概要
 
 PyCASL3, PyCOMET3 は[CASLII](http://www.ipa.go.jp/english/humandev/data/Term_LangSpec.pdf)のアセンブラ及びシュミレータです。
