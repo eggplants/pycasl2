@@ -9,8 +9,8 @@ pip install git+https://github.com/eggplants/pycasl3
 ## 使い方
 
 ```shellsession
-$ pycasl3 test/data.cas  # casl2 binary file
-$ pycomet3 test/data.com # comet2 binary file
+pycasl3 test/data.cas  # casl2 binary file
+pycomet3 test/data.com # comet2 binary file
 ```
 
 ---
